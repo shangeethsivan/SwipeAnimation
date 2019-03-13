@@ -50,19 +50,20 @@
 
     </LinearLayout>
 
-    <co.shrappz.swipeanimation.DragLayout
+    <co.shrappz.swipeanimation.DragLayoutSwipe
         android:id="@+id/layout_3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:text="Hello World!">
 
         <RelativeLayout
             android:id="@+id/container"
+            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="match_parent"
             android:background="@drawable/shape"
             android:gravity="center"
             android:text="Hello World" />
@@ -70,15 +71,15 @@
 
         <TextView
             android:id="@+id/round_icon"
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp"
             android:background="@drawable/shape_2"
             android:gravity="center"
             android:text="Hello World"
             android:textColor="#ffffff" />
         </RelativeLayout>
 
-    </co.shrappz.swipeanimation.DragLayout>
+    </co.shrappz.swipeanimation.DragLayoutSwipe>
 
 </LinearLayout>
